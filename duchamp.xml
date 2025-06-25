@@ -23,7 +23,7 @@
    <project path="vendor/xiaomi/duchamp" name="vendor_xiaomi_duchamp" remote="zenin" revision="15" />
 
    <!-- Audio Mods -->
-   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="neon" revision="15" />
+   <project path="vendor/jdsp" name="vendor_jdsp" remote="neon" revision="15" />
 
    <!-- HALs and Policies -->
    <project path="hardware/mediatek" name="hardware_mediatek" remote="neon" revision="15" />
