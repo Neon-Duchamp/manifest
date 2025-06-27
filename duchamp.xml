@@ -9,6 +9,9 @@
            fetch="https://gitea.com/zenin"
            clone-depth="1" />
 
+   <!-- Common IMS -->
+   <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="neon" revision="15" />
+
    <!-- Device Trees -->
    <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="15" />
    <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="15" />
