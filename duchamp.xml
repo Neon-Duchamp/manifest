@@ -9,9 +9,15 @@
            fetch="https://gitea.com/zenin"
            clone-depth="1" />
 
+   <!-- Common IMS -->
+   <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="neon" revision="16" />
+
    <!-- Device Trees -->
    <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="16" />
    <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="16" />
+
+   <!-- Google Camera -->
+   <project path="vendor/go" name="vendor_go" remote="zenin" revision="16" />
 
    <!-- Kernel Source -->
    <project path="kernel/xiaomi/mt6897" name="kernel_xiaomi_mt6897" remote="neon" revision="16" />
@@ -20,7 +26,7 @@
    <project path="vendor/xiaomi/duchamp" name="vendor_xiaomi_duchamp" remote="zenin" revision="16" />
 
    <!-- Audio Mods -->
-   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="neon" revision="16" />
+   <project path="vendor/jdsp" name="vendor_jdsp" remote="neon" revision="16" />
 
    <!-- HALs and Policies -->
    <project path="hardware/mediatek" name="hardware_mediatek" remote="neon" revision="16" />
