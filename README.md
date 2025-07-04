@@ -15,6 +15,6 @@ Instead of modifying the main manifest directly, we place additional project ent
 Clone this repository into your local manifest directory:
 
 ```bash
-git clone https://github.com/Neon-Duchamp/manifest.git -b 16 .repo/local_manifests
+git clone https://github.com/Neon-Duchamp/manifest.git -b bka .repo/local_manifests
 
 repo sync -j$(nproc --all)

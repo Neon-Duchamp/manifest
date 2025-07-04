@@ -13,8 +13,8 @@
    <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="neon" revision="16" />
 
    <!-- Device Trees -->
-   <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="16" />
-   <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="16" />
+   <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="bka" />
+   <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="vic" />
 
    <!-- Google Camera -->
    <project path="vendor/go" name="vendor_go" remote="zenin" revision="16" />
