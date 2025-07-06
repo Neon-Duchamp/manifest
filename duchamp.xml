@@ -16,6 +16,9 @@
    <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="derp" />
    <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="vic" />
 
+   <!-- Gcam -->
+   <project path="vendor/xiaomi/duchamp-gcam" name="vendor_xiaomi_duchamp-gcam" remote="neon" revision="gcam" />
+
    <!-- Kernel Source -->
    <project path="kernel/xiaomi/mt6897" name="kernel_xiaomi_mt6897" remote="neon" revision="15" />
 
