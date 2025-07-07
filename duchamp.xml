@@ -12,6 +12,9 @@
    <!-- Common IMS -->
    <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="neon" revision="15" />
 
+   <!-- Dolby -->
+   <project path="hardware/dolby" name="hardware_dolby" remote="neon" revision="xiaomi-dolby" />
+
    <!-- Device Trees -->
    <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="derp" />
    <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="vic" />
@@ -24,9 +27,6 @@
 
    <!-- Vendor Blobs -->
    <project path="vendor/xiaomi/duchamp" name="vendor_xiaomi_duchamp" remote="zenin" revision="15" />
-
-   <!-- Audio Mods -->
-   <project path="vendor/jdsp" name="vendor_jdsp" remote="neon" revision="15" />
 
    <!-- HALs and Policies -->
    <project path="hardware/mediatek" name="hardware_mediatek" remote="neon" revision="15" />
