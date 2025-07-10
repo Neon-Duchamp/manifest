@@ -16,11 +16,11 @@
    <project path="hardware/dolby" name="hardware_dolby" remote="neon" revision="xiaomi-dolby" />
 
    <!-- Device Trees -->
-   <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="clover" />
+   <project path="device/xiaomi/duchamp" name="device_xiaomi_duchamp" remote="neon" revision="crdroid" />
    <project path="device/xiaomi/duchamp-kernel" name="device_xiaomi_duchamp-kernel" remote="neon" revision="sukisu" />
 
    <!-- Kernel Source -->
-   <project path="kernel/xiaomi/mt6897" name="kernel_xiaomi_mt6897" remote="neon" revision="15" />
+   <project path="kernel/xiaomi/mt6897" name="android_kernel_6.1" remote="neon" revision="lineage-22.2" />
 
    <!-- Vendor Blobs -->
    <project path="vendor/xiaomi/duchamp" name="vendor_xiaomi_duchamp" remote="zenin" revision="15" />
